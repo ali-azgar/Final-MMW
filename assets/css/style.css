@@ -1193,6 +1193,12 @@ input[id="cb"] {
   .app-btn-row {
     display: flex;
   }
+  .app-link {
+    display: none;
+  }
+  .trusted {
+    display: block !important;
+  }
   .mobile-show {
     display: contents;
   }
@@ -1658,6 +1664,9 @@ input[id="cb"] {
   margin-right: 35px;
 }
 
+.trusted {
+  display: none;
+}
 .our-features .logo-abs-left img {
   width: 210px;
   height: 800px;
